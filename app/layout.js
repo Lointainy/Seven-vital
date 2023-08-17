@@ -1,7 +1,7 @@
 import '@styles/globals.css';
-import { Inter } from 'next/font/google';
+import { Inter, Montserrat } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const font = Montserrat({ subsets: ['latin'] });
 
 import '@styles/main.scss';
 
@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<body className={inter.className}>{children}</body>
+			<body className={font.className}>{children}</body>
 		</html>
 	);
 }
