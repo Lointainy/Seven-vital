@@ -1,0 +1,53 @@
+$color-white: #ffffff;
+$color-black: #000000;
+$color-red: #b66650;
+
+$color-green: #596e44;
+$color-green-2: #586d43;
+$color-green-3: #6c7863;
+$color-green-4: #f3f4ef;
+$color-green-5: #2c3722;
+$color-green-6: #a6ad9f;
+
+$color-grey: #e7e6e3;
+
+$bg-white: $color-white;
+$bg-green: $color-green-2;
+$bg-light-green: $color-green-4;
+$bg-dark-green: $color-green-5;
+
+$stroke-grey: $color-grey;
+$stroke-green: $color-green-2;
+
+$text-green: $color-green;
+$text-black: $color-black;
+$text-white: $color-white;
+$text-light-green: $color-green-6;
+
+$container-mw: 1880px !default; // width container
+$grid-space: 40px; // margin
+$grid-space-side: calc($grid-space / 2); // margin one side
+
+// DON`T TOUCH
+$grid-bp: (
+	xs: 0px,
+	// Extra small screen / phone
+	sm: 576px,
+	// Small screen / phone
+	md: 768px,
+	// Medium screen / tablet
+	lg: 992px,
+	// Large screen / desktop
+	xl: 1200px,
+	// Extra large screen / wide desktop
+	xxl: 1400px,
+	// Extra large screen / wide desktop
+) !default;
+
+$media-value: (
+	mx: max,
+	// desctop first
+	mn: min,
+	// mobile first
+) !default;
+
