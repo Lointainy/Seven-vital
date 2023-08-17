@@ -1,0 +1,76 @@
+@import '@styles/abstacts/variables';
+@import '@styles/abstacts/mixins';
+
+@include media(xs, mn) {
+	.nav {
+		@include container;
+		display: grid;
+		grid-auto-flow: column;
+		justify-content: space-between;
+		align-items: center;
+		height: 7.5rem;
+		background-color: $bg-white;
+	}
+
+	.links {
+		display: none;
+	}
+
+	.logo {
+		max-height: 50px;
+	}
+
+	.buttons {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+
+	.mobile {
+		display: grid;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+
+		.bars {
+			cursor: pointer;
+		}
+
+		.dropdownLinks {
+			display: grid;
+			grid-auto-flow: row;
+			row-gap: 1.5rem;
+
+			.dropdownLink {
+				font-size: 24px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: normal;
+				color: $color-green-3;
+				text-transform: capitalize;
+			}
+		}
+	}
+}
+
+@include media(md, mn) {
+	.mobile {
+		display: none;
+	}
+	.links {
+		display: grid;
+		grid-auto-flow: column;
+		column-gap: 1.5rem;
+
+		.link {
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+			color: $color-green-3;
+			text-transform: capitalize;
+		}
+	}
+}
+
