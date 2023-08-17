@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Seven Vital webPage
 
-## Getting Started
+## Table of contents
 
-First, run the development server:
+- [Overview](#overview)
+  - [Preview](https://seven-vital-lointainy.netlify.app/)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Status](#project-status)
+- [Author](#author)
+- [Author Desicn](#author-design)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![screenshot](./design/preview.png)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## My process
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+###### Built with
 
-## Learn More
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- Node modules
+  - [sass](https://sass-lang.com/)
+- [REACT](https://reactjs.org/) - framework
+- [NEXT.js](https://nextjs.org/) - react framework
 
-To learn more about Next.js, take a look at the following resources:
+###### Project status
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![complete](https://img.shields.io/badge/project_created:-17.08.2023-333?style=for-the-badge&labelColor=e7901f)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![update](https://img.shields.io/badge/last_update:-17.08.2023-333?style=for-the-badge&labelColor=1fe783)
 
-## Deploy on Vercel
+###### Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[![Lointainy](https://img.shields.io/badge/-lointainy-333?style=for-the-badge&logo=github&&logoColor=FFF)](https://github.com/Lointainy)
+[![Lointainy](https://img.shields.io/badge/-Sulim-333?style=for-the-badge&logo=github&&logoColor=FFF)](https://dianab.work/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
