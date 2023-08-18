@@ -1,0 +1,34 @@
+@import '@styles/abstacts/variables';
+@import '@styles/abstacts/mixins';
+
+@include media(xs, mn) {
+	.slider {
+		display: grid;
+		grid-auto-flow: column;
+		grid-template-columns: 40px 1fr 40px;
+	}
+
+	.wrapper {
+		overflow: hidden;
+		position: relative;
+	}
+
+	.slides {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		transition: transform 0.8s ease;
+	}
+
+	.slide {
+		margin: 0 1rem;
+	}
+
+	.button {
+		display: grid;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
