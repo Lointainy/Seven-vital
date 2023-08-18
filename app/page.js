@@ -1,10 +1,7 @@
 import Layout from '@components/layout/Layout';
+import HomePage from '@pages/HomePage/HomePage';
 
 export default function Home() {
-	return (
-		<Layout title={'Home'} description={''}>
-			<h1>page</h1>
-		</Layout>
-	);
+	return <HomePage />;
 }
 
