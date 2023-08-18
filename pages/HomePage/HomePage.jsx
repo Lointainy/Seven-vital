@@ -1,6 +1,7 @@
 import Layout from '@components/layout/Layout';
 import AboutUs from '@components/sections/AboutUs/AboutUs';
 import Hero from '@components/sections/Hero/Hero';
+import OurAdvantages from '@components/sections/OurAdvantages/OurAdvantages';
 import React from 'react';
 
 const HomePage = () => {
@@ -9,6 +10,7 @@ const HomePage = () => {
 			<main>
 				<Hero />
 				<AboutUs />
+				<OurAdvantages />
 			</main>
 		</Layout>
 	);
