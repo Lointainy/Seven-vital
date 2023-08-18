@@ -92,13 +92,23 @@
 	.section {
 		padding: 6rem 0;
 	}
-}
 
-@include media(lg, mn) {
 	.headline {
 		margin-bottom: 5rem;
 	}
 
+	.content {
+		display: grid;
+		grid-auto-flow: row;
+		row-gap: 3.25rem;
+	}
+
+	.list {
+		row-gap: 2rem;
+	}
+}
+
+@include media(lg, mn) {
 	.contentWrapper {
 		grid-auto-flow: column;
 		grid-template-columns: repeat(2, 1fr);
@@ -117,16 +127,6 @@
 		.imgSecond {
 			max-width: 250px;
 		}
-	}
-
-	.content {
-		display: grid;
-		grid-auto-flow: row;
-		row-gap: 3.25rem;
-	}
-
-	.list {
-		row-gap: 2rem;
 	}
 }
 
