@@ -1,0 +1,80 @@
+@import '@styles/abstacts/variables';
+@import '@styles/abstacts/mixins';
+
+@include media(xs, mn) {
+	.section {
+		background-color: $bg-light-green;
+		padding: 3.625rem 0;
+	}
+
+	.contentWrapper {
+		display: grid;
+		grid-auto-flow: row;
+		row-gap: 3.5rem;
+		align-items: center;
+	}
+
+	.content {
+		display: grid;
+		grid-auto-flow: row;
+		row-gap: 2.625rem;
+	}
+
+	.headline {
+		display: grid;
+		grid-auto-flow: row;
+		row-gap: 0.5rem;
+		h3 {
+			color: $color-green;
+		}
+	}
+
+	.desc {
+		color: $text-green;
+		position: relative;
+
+		&:before {
+			content: '';
+			position: absolute;
+		}
+	}
+
+	.imgWrapper {
+		position: relative;
+		height: 400px;
+		width: 400px;
+		background-color: $bg-dark-green;
+		overflow: hidden;
+		border-radius: 50%;
+		margin: 0 auto;
+
+		img {
+			position: absolute;
+			width: 100%;
+			height: auto;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+		}
+	}
+
+	.socials {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem 1rem;
+	}
+}
+@include media(md, mn) {
+	.contentWrapper {
+		display: grid;
+		grid-auto-flow: column;
+		grid-template-columns: 1fr 400px;
+		column-gap: 2.625rem;
+	}
+
+	.section {
+		padding: 3 875rem 0;
+	}
+}
+
