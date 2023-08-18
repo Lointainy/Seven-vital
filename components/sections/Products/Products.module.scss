@@ -52,6 +52,7 @@
 		position: relative;
 		height: 11.625rem;
 		overflow: hidden;
+		background: $bg-dark-green;
 
 		img {
 			position: absolute;
@@ -145,7 +146,6 @@
 
 	.imgWrapper {
 		height: 23.75rem;
-		background: $bg-dark-green;
 	}
 }
 

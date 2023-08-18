@@ -41,8 +41,8 @@
 
 	.imgWrapper {
 		position: relative;
-		height: 400px;
-		width: 400px;
+		height: 200px;
+		width: 200px;
 		background-color: $bg-dark-green;
 		overflow: hidden;
 		border-radius: 50%;
@@ -71,6 +71,11 @@
 		grid-auto-flow: column;
 		grid-template-columns: 1fr 400px;
 		column-gap: 2.625rem;
+	}
+
+	.imgWrapper {
+		height: 400px;
+		width: 400px;
 	}
 
 	.section {
