@@ -3,7 +3,7 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [Preview](https://seven-vital-lointainy.netlify.app/)
+  - [Preview](https://seven-vital.vercel.app/)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Status](#project-status)
@@ -29,7 +29,7 @@
 
 ![complete](https://img.shields.io/badge/project_created:-17.08.2023-333?style=for-the-badge&labelColor=e7901f)
 
-![update](https://img.shields.io/badge/last_update:-17.08.2023-333?style=for-the-badge&labelColor=1fe783)
+![update](https://img.shields.io/badge/last_update:-23.08.2023-333?style=for-the-badge&labelColor=1fe783)
 
 ###### Author
 
