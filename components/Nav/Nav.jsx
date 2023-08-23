@@ -5,7 +5,7 @@ import DropdownField from '@components/fields/Dropdown/Dropdown';
 import { useToggle } from '@hooks/useToggle';
 import styles from './Nav.module.scss';
 
-import links from '@utils/links';
+import { navLinks } from '@utils/links';
 
 const Nav = () => {
 	const { toggle: dropdown, handleToggle, setToggle } = useToggle(false);
@@ -13,7 +13,7 @@ const Nav = () => {
 	return (
 		<nav className={styles.nav}>
 			<ul className={styles.links}>
-				{links.map((link, i) => {
+				{navLinks.map((link, i) => {
 					return (
 						<li key={`${i}${link.title}`} className={styles.link}>
 							<Link href={`/${link.path}`}>{link.title}</Link>
@@ -33,7 +33,7 @@ const Nav = () => {
 				{dropdown && (
 					<DropdownField position={'left'}>
 						<ul className={styles.dropdownLinks}>
-							{links.map((link, i) => {
+							{navLinks.map((link, i) => {
 								return (
 									<li key={`${i}${link.title}`} className={styles.dropdownLink}>
 										<Link href={`/${link.path}`}>{link.title}</Link>
