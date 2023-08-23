@@ -1,4 +1,4 @@
-const links = [
+const navLinks = [
 	{
 		path: 'shop',
 		title: 'shop'
@@ -13,4 +13,24 @@ const links = [
 	}
 ];
 
-export default links;
+const socialLinks = [
+	{
+		link: '',
+		name: 'instagram'
+	},
+	{
+		link: '',
+		name: 'twitter'
+	},
+	{
+		link: '',
+		name: 'linkedin'
+	},
+	{
+		link: '',
+		name: 'telegram'
+	}
+];
+
+export { navLinks, socialLinks };
+
