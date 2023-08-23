@@ -5,22 +5,9 @@ import DropdownField from '@components/fields/Dropdown/Dropdown';
 import { useToggle } from '@hooks/useToggle';
 import styles from './Nav.module.scss';
 
-const Nav = () => {
-	const links = [
-		{
-			path: 'shop',
-			title: 'shop'
-		},
-		{
-			path: 'account',
-			title: 'account'
-		},
-		{
-			path: 'contact',
-			title: 'contact'
-		}
-	];
+import links from '@utils/links';
 
+const Nav = () => {
 	const { toggle: dropdown, handleToggle, setToggle } = useToggle(false);
 
 	return (
