@@ -23,7 +23,7 @@ const QuestionUs = () => {
 							</i>
 							<p className={styles.desc}>
 								Hotline:
-								<span className={styles.descBold}>001 340-688-233</span>
+								<span className={styles.descBold}> 001 340-688-233</span>
 							</p>
 						</div>
 						<Link href="/contact" className={`${styles.button} btn-secondary`}>
