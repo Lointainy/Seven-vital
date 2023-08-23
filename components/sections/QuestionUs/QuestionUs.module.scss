@@ -46,6 +46,10 @@
 			}
 		}
 	}
+
+	.descBold {
+		font-weight: 600;
+	}
 }
 
 @include media(md, mn) {
