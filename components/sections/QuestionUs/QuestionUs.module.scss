@@ -1,0 +1,56 @@
+@import '@styles/abstacts/variables';
+@import '@styles/abstacts/mixins';
+
+@include media(xs, mn) {
+	.section {
+		padding: 5rem 0;
+		background-color: $bg-dark-green;
+		color: $text-white;
+	}
+
+	.wrapper {
+		text-align: center;
+		display: grid;
+		grid-auto-flow: row;
+		row-gap: 2.5rem;
+	}
+
+	.contentWrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		gap: 2rem 2.5rem;
+	}
+
+	.content {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0 1rem;
+	}
+
+	.button {
+		background: none;
+		color: $text-white;
+		outline-color: $color-white;
+
+		&:hover {
+			color: $text-green;
+			background-color: $bg-white;
+
+			i svg path {
+				fill: $text-green;
+			}
+		}
+	}
+}
+
+@include media(md, mn) {
+	.section {
+		padding: 6rem 0;
+	}
+}
+

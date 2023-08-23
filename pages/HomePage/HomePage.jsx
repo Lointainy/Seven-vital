@@ -6,6 +6,7 @@ import OurAdvantages from '@components/sections/OurAdvantages/OurAdvantages';
 import OurReviews from '@components/sections/OurReviews/OurReviews';
 import OwnerInfo from '@components/sections/OwnerInfo/OwnerInfo';
 import Products from '@components/sections/Products/Products';
+import QuestionUs from '@components/sections/QuestionUs/QuestionUs';
 import React from 'react';
 
 const HomePage = () => {
@@ -19,6 +20,7 @@ const HomePage = () => {
 				<Products />
 				<OwnerInfo />
 				<Faq />
+				<QuestionUs />
 			</main>
 		</Layout>
 	);
