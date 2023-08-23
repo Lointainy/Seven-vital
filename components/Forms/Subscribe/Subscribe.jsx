@@ -1,13 +1,23 @@
+'use client';
+import { useState } from 'react';
 import styles from './Subscribe.module.scss';
 
+import { font } from '@utils/font';
+
 const SubscribeForm = () => {
+	const [email, setEmail] = useState();
+
+	const handleSubmit = (e) => {
+		e.preventDefault();
+	};
 	return (
-		<form className={styles.form}>
-			<input type="text" />
-			<button type="submit" className={`btn-primary`}>
+		<form className={styles.form} onSubmit={(e) => handleSubmit(e)}>
+			<h3 className={`${font.alegreya.className} ${styles.headline}`}>Get our newslater</h3>
+			<input type="email" className={styles.input} />
+			<button type="submit" className={`btn-primary ${styles.button}`}>
 				Sign up!
 			</button>
-			<p>Enjoy all the latest stories, tips, news & useful advice!</p>
+			<p className={styles.desc}>Enjoy all the latest stories, tips, news & useful advice!</p>
 		</form>
 	);
 };
