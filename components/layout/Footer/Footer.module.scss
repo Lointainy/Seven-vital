@@ -22,6 +22,11 @@
 		justify-content: center;
 	}
 
+	.logo img {
+		max-height: 50px;
+		max-width: 220px;
+	}
+
 	.social {
 		display: grid;
 		grid-auto-flow: column;

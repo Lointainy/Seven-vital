@@ -14,7 +14,7 @@ const Footer = () => {
 				<div className={styles.wrapper}>
 					<div className={styles.headline}>
 						<div className={styles.logo}>
-							<img src="assets/logo-white.svg" alt="seven-vital-logo" />
+							<img src="assets/logo-white.svg" alt="seven-vital-logo" height="50" width="auto" />
 						</div>
 						<ul className={styles.social}>
 							{socialLinks.map((social, i) => {
