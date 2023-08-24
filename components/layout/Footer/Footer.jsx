@@ -20,7 +20,7 @@ const Footer = () => {
 							{socialLinks.map((social, i) => {
 								return (
 									<li className={styles.socialItem} key={`${i}${social.name}`}>
-										<Link href={social.link}>
+										<Link href={social.link} area-label={`view our ${social.name} account`}>
 											<i className={styles.socialItemIcon}>
 												<img src={`assets/icons/${social.name}.svg`} alt={`social-${social.name}`} height="20" width="220" />
 											</i>
@@ -37,7 +37,9 @@ const Footer = () => {
 								{navLinks.map((link, i) => {
 									return (
 										<li key={`${i}${link.title}`} className={styles.navLink}>
-											<Link href={`/${link.path}`}>{link.title}</Link>
+											<Link href={`/${link.path}`} area-label={`open ${link.title} page`}>
+												{link.title}
+											</Link>
 										</li>
 									);
 								})}

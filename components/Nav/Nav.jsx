@@ -16,7 +16,9 @@ const Nav = () => {
 				{navLinks.map((link, i) => {
 					return (
 						<li key={`${i}${link.title}`} className={styles.link}>
-							<Link href={`/${link.path}`}>{link.title}</Link>
+							<Link href={`/${link.path}`} area-label={`open ${link.title} page`}>
+								{link.title}
+							</Link>
 						</li>
 					);
 				})}
@@ -36,7 +38,9 @@ const Nav = () => {
 							{navLinks.map((link, i) => {
 								return (
 									<li key={`${i}${link.title}`} className={styles.dropdownLink}>
-										<Link href={`/${link.path}`}>{link.title}</Link>
+										<Link href={`/${link.path}`} area-label={`open ${link.title} page`}>
+											{link.title}
+										</Link>
 									</li>
 								);
 							})}
@@ -49,7 +53,7 @@ const Nav = () => {
 			</div>
 			<ul className={styles.buttons}>
 				<li>
-					<Link href={'/cart'}>
+					<Link href={'/cart'} aria-label="open cart page">
 						<i>
 							<svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512">
 								<path

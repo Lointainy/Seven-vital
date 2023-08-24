@@ -48,7 +48,7 @@ const OwnerInfo = () => {
 							{socials.map((social, i) => {
 								return (
 									<li className={styles.item} key={`${i}${social.name}`}>
-										<Link href={social.link}>
+										<Link href={social.link} area-label={`view owner ${social.name} account`}>
 											<i className={styles.itemIcon}>
 												<img src={`assets/icons/${social.name}.svg`} alt={`social-${social.name}`} height="20" width="20" />
 											</i>
