@@ -56,7 +56,7 @@ const Products = () => {
 			<Container>
 				<div className={styles.contentWrapper}>
 					<div className={styles.headline}>
-						<img src="assets/images/leaf.svg" alt="leaf-img" className={styles.headlineImg} />
+						<img src="assets/images/leaf.svg" alt="leaf-img" className={styles.headlineImg} width="100" height="auto" />
 						<h2 className={`${font.className}`}>Most Popular CBD Products</h2>
 						<p className={`${styles.desc} ${styles.headlineDesc}`}>
 							Nam vitae sapien dapibus, condimentum ipsum non, porttitor purus. Cras et diam ac – nunc urna magna, porttitor eu laoreet

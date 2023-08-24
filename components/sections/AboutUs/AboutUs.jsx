@@ -38,7 +38,7 @@ const AboutUs = () => {
 		>
 			<Container>
 				<div className={`${styles.headline} ${font.className}`}>
-					<img src="assets/images/leaf.svg" alt="leaf-img" className={styles.headlineImg} />
+					<img src="assets/images/leaf.svg" alt="leaf-img" className={styles.headlineImg} width="100" height="auto" />
 					<h2>What is Seven Vital CBD?</h2>
 				</div>
 				<div className={styles.contentWrapper}>
