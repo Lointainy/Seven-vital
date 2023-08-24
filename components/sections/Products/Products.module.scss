@@ -104,6 +104,7 @@
 			grid-auto-flow: column;
 			column-gap: 0.5rem;
 			justify-content: center;
+			align-items: center;
 
 			span {
 				font-size: 1rem;
@@ -114,6 +115,7 @@
 			}
 
 			.priceSale {
+				font-size: 1.25rem;
 				color: $color-red;
 				font-weight: 600;
 			}
