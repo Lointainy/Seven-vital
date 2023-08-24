@@ -43,8 +43,22 @@ const AboutUs = () => {
 				</div>
 				<div className={styles.contentWrapper}>
 					<div className={styles.imgWrapper}>
-						<img src="assets/images/aboutUs-first.webp" alt="aboutus-first-img" className={styles.imgFirst} width="400" height="400" />
-						<img src="assets/images/aboutUs-second.webp" alt="aboutus-second-img" className={styles.imgSecond} width="250" height="250" />
+						<img
+							src="assets/images/aboutUs-first.webp"
+							alt="aboutus-first-img"
+							className={styles.imgFirst}
+							width="400"
+							height="400"
+							aspect-ratio="1 / 1"
+						/>
+						<img
+							src="assets/images/aboutUs-second.webp"
+							alt="aboutus-second-img"
+							className={styles.imgSecond}
+							width="250"
+							height="250"
+							aspect-ratio="1 / 1"
+						/>
 					</div>
 					<div className={styles.content}>
 						<p className={styles.desc}>
