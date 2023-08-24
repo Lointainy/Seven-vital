@@ -32,7 +32,13 @@ const AccordionSlide = ({ isActive, toggleSlide, title, children }) => {
 		<div className={`${styles.slide} ${isActive ? styles.activeSlide : ''}`}>
 			<div className={styles.slideHeader} onClick={toggleSlide}>
 				<span className={`${styles.slideTitle}  ${font.className}`}>{title}</span>
-				<i>{isActive ? <img src="assets/icons/chevron-up.svg" /> : <img src="assets/icons/chevron-down.svg" />}</i>
+				<i className={styles.slideButton}>
+					{isActive ? (
+						<img src="assets/icons/chevron-up.svg" height="10" width="auto" alt="toggle-up-icon" />
+					) : (
+						<img src="assets/icons/chevron-down.svg" height="10" width="auto" alt="toggle-down-icon" />
+					)}
+				</i>
 			</div>
 			{isActive && <p className={styles.slideDesc}>{children}</p>}
 		</div>
