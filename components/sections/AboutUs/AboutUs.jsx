@@ -43,8 +43,8 @@ const AboutUs = () => {
 				</div>
 				<div className={styles.contentWrapper}>
 					<div className={styles.imgWrapper}>
-						<img src="assets/images/aboutUs-first.png" alt="aboutus-first-img" className={styles.imgFirst} />
-						<img src="assets/images/aboutUs-second.png" alt="aboutus-second-img" className={styles.imgSecond} />
+						<img src="assets/images/aboutUs-first.webp" alt="aboutus-first-img" className={styles.imgFirst} />
+						<img src="assets/images/aboutUs-second.webp" alt="aboutus-second-img" className={styles.imgSecond} />
 					</div>
 					<div className={styles.content}>
 						<p className={styles.desc}>
