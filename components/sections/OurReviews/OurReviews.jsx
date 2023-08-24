@@ -45,7 +45,7 @@ const OurReviews = () => {
 					{reviews.map((review, i) => {
 						return (
 							<div className={styles.review} key={`${i}${review.name}`}>
-								<img src={review.imgPath} alt={`${review.name}`} className={styles.img} />
+								<img src={review.imgPath} alt={`${review.name}`} className={styles.img} height="150" width="150" />
 								<h3 className={font.className}>{review.name}</h3>
 								<p className={styles.desc}>{review.desc}</p>
 							</div>
