@@ -71,7 +71,7 @@ const Products = () => {
 										<img src={product.img} alt={product.title} className={styles.img} width="280" height="380" />
 										{product.sale && <span>sale</span>}
 									</div>
-									<h4>{product.title}</h4>
+									<div className={styles.cardTitle}>{product.title}</div>
 									<div className={styles.price}>
 										<span>${product.price.current}</span>
 										{product.sale && <span className={styles.priceSale}>{product.price.sale}</span>}

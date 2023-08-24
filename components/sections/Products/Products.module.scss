@@ -118,6 +118,10 @@
 			}
 		}
 	}
+
+	.cardTitle {
+		@include h4;
+	}
 }
 
 @include media(md, mn) {
