@@ -64,6 +64,11 @@
 		flex-wrap: wrap;
 		gap: 1rem 1rem;
 	}
+
+	.itemIcon img {
+		max-height: 20px;
+		width: auto;
+	}
 }
 @include media(md, mn) {
 	.contentWrapper {

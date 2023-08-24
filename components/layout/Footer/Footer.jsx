@@ -22,7 +22,7 @@ const Footer = () => {
 									<li className={styles.socialItem} key={`${i}${social.name}`}>
 										<Link href={social.link}>
 											<i className={styles.socialItemIcon}>
-												<img src={`assets/icons/${social.name}.svg`} alt={`social-${social.name}`} />
+												<img src={`assets/icons/${social.name}.svg`} alt={`social-${social.name}`} height="20" width="auto" />
 											</i>
 										</Link>
 									</li>

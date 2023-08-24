@@ -30,6 +30,11 @@
 		cursor: pointer;
 	}
 
+	.socialItemIcon img {
+		max-height: 20px;
+		width: auto;
+	}
+
 	.navWrapper {
 		display: grid;
 		grid-auto-flow: row;

@@ -50,7 +50,7 @@ const OwnerInfo = () => {
 									<li className={styles.item} key={`${i}${social.name}`}>
 										<Link href={social.link}>
 											<i className={styles.itemIcon}>
-												<img src={`assets/icons/${social.name}.svg`} alt={`social-${social.name}`} />
+												<img src={`assets/icons/${social.name}.svg`} alt={`social-${social.name}`} height="20" width="auto" />
 											</i>
 										</Link>
 									</li>
