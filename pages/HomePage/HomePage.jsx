@@ -11,7 +11,13 @@ import React from 'react';
 
 const HomePage = () => {
 	return (
-		<Layout title={'Home'} description={''}>
+		<Layout
+			title={'Home'}
+			description={
+				'Discover radiant beauty with our premium facial care products. Elevate your skincare routine with our exquisite range of cosmetics for facial rejuvenation. Shop now for healthier, glowing skin!'
+			}
+			keywords={'facial care cosmetics, skincare products, facial rejuvenation, healthy skin, beauty products'}
+		>
 			<main>
 				<Hero />
 				<AboutUs />
