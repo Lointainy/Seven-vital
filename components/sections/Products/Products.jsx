@@ -76,7 +76,11 @@ const Products = () => {
 										<span>${product.price.current}</span>
 										{product.sale && <span className={styles.priceSale}>{product.price.sale}</span>}
 									</div>
-									<Link href={`/products/${product.slug}`} className={`btn-primary ${styles.button}`}>
+									<Link
+										href={`/products/${product.slug}`}
+										className={`btn-primary ${styles.button}`}
+										area-label={`add to cart ${product.slug}`}
+									>
 										<i className={styles.buttonIcon}>
 											<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14" fill="none">
 												<path
@@ -91,7 +95,7 @@ const Products = () => {
 							);
 						})}
 					</ul>
-					<Link className={`btn-secondary ${styles.button}`} href="/shop">
+					<Link className={`btn-secondary ${styles.button}`} href="/shop" area-label="show all our products">
 						View all products
 					</Link>
 				</div>
