@@ -15,19 +15,19 @@ const navLinks = [
 
 const socialLinks = [
 	{
-		link: '',
+		link: 'instagram.com',
 		name: 'instagram'
 	},
 	{
-		link: '',
+		link: 'twitter.com',
 		name: 'twitter'
 	},
 	{
-		link: '',
+		link: 'linkedin.com',
 		name: 'linkedin'
 	},
 	{
-		link: '',
+		link: 'telegram.com',
 		name: 'telegram'
 	}
 ];
