@@ -7,17 +7,12 @@ import OurReviews from '@components/sections/OurReviews/OurReviews';
 import OwnerInfo from '@components/sections/OwnerInfo/OwnerInfo';
 import Products from '@components/sections/Products/Products';
 import QuestionUs from '@components/sections/QuestionUs/QuestionUs';
+import Head from 'next/head';
 import React from 'react';
 
 const HomePage = () => {
 	return (
-		<Layout
-			title={'Home'}
-			description={
-				'Discover radiant beauty with our premium facial care products. Elevate your skincare routine with our exquisite range of cosmetics for facial rejuvenation. Shop now for healthier, glowing skin!'
-			}
-			keywords={'facial care cosmetics, skincare products, facial rejuvenation, healthy skin, beauty products'}
-		>
+		<Layout>
 			<main>
 				<Hero />
 				<AboutUs />
