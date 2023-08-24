@@ -46,6 +46,11 @@
 			align-items: center;
 		}
 	}
+
+	.itemIcon img {
+		max-height: 28px;
+		width: auto;
+	}
 }
 
 @include media(md, mn) {

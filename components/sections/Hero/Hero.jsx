@@ -28,26 +28,26 @@ const Hero = () => {
 					</Link>
 					<ul className={styles.services}>
 						<li className={styles.servicesItem}>
-							<i>
-								<img src="/assets/icons/term.svg" alt="" />
+							<i className={styles.itemIcon}>
+								<img src="/assets/icons/term.svg" alt="term-icon" height="28" width="auto" />
 							</i>
 							<span>Gentle extraction</span>
 						</li>
 						<li className={styles.servicesItem}>
-							<i>
-								<img src="/assets/icons/leaf.svg" alt="" />
+							<i className={styles.itemIcon}>
+								<img src="/assets/icons/leaf.svg" alt="leaf-icon" height="28" width="auto" />
 							</i>
 							<span>100% organic farming</span>
 						</li>
 						<li className={styles.servicesItem}>
-							<i>
-								<img src="/assets/icons/chem.svg" alt="" />
+							<i className={styles.itemIcon}>
+								<img src="/assets/icons/chem.svg" alt="chem-icon" height="28" width="auto" />
 							</i>
 							<span>Carefully tested</span>
 						</li>
 						<li className={styles.servicesItem}>
-							<i>
-								<img src="/assets/icons/shield.svg" alt="" />
+							<i className={styles.itemIcon}>
+								<img src="/assets/icons/shield.svg" alt="shield-icon" height="28" width="auto" />
 							</i>
 							<span>Certified quality</span>
 						</li>
