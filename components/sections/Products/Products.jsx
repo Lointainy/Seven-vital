@@ -76,7 +76,7 @@ const Products = () => {
 										<span>${product.price.current}</span>
 										{product.sale && <span className={styles.priceSale}>{product.price.sale}</span>}
 									</div>
-									<Link href={`/products/${product.slug}`} className={`btn-primary ${styles.button}`} area-label={`add to cart`}>
+									<Link href={`/products/${product.slug}`} className={`btn-primary ${styles.button}`} aria-label={`add to cart`}>
 										<i className={styles.buttonIcon}>
 											<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14" fill="none">
 												<path
