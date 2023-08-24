@@ -58,7 +58,7 @@ const OurAdvantages = () => {
 							return (
 								<li className={styles.item} key={`${i} ${advantage.title}`}>
 									<i className={styles.itemIcon}>
-										<img src={`assets/icons/advantage-${advantage.imgName}.svg`} alt="" />
+										<img src={`assets/icons/advantage-${advantage.imgName}.svg`} alt="" height="40" width="auto" />
 									</i>
 									<h3 className={`${font.className} ${styles.itemTitle}`}>{advantage.title}</h3>
 									<p className={styles.desc}>{advantage.desc}</p>

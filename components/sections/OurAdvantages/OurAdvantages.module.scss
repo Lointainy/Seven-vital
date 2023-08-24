@@ -47,7 +47,18 @@
 		justify-content: center;
 		text-align: center;
 		row-gap: 1.375rem;
-		grid-auto-rows: 30px minmax(42px, max-content) max-content;
+		grid-auto-rows: 45px minmax(42px, max-content) max-content;
+	}
+
+	.itemIcon {
+		display: grid;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.itemIcon img {
+		max-height: 40px;
+		width: auto;
 	}
 
 	.desc {
