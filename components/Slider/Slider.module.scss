@@ -29,7 +29,10 @@
 		display: grid;
 		align-items: center;
 		justify-content: center;
-		max-height: 22px;
+	}
+
+	.button img {
+		height: 22px;
 		width: auto;
 	}
 }
