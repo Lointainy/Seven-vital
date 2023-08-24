@@ -34,9 +34,9 @@ const AccordionSlide = ({ isActive, toggleSlide, title, children }) => {
 				<span className={`${styles.slideTitle}  ${font.className}`}>{title}</span>
 				<i className={styles.slideButton}>
 					{isActive ? (
-						<img src="assets/icons/chevron-up.svg" height="10" width="auto" alt="toggle-up-icon" />
+						<img src="assets/icons/chevron-up.svg" height="10" width="20" alt="toggle-up-icon" />
 					) : (
-						<img src="assets/icons/chevron-down.svg" height="10" width="auto" alt="toggle-down-icon" />
+						<img src="assets/icons/chevron-down.svg" height="10" width="20" alt="toggle-down-icon" />
 					)}
 				</i>
 			</div>

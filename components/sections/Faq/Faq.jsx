@@ -16,7 +16,7 @@ const Faq = () => {
 			<Container>
 				<div className={styles.wrapper}>
 					<div className={styles.headline}>
-						<img src="assets/images/leaf.svg" alt="leaf-img" className={styles.headlineImg} width="100" height="auto" />
+						<img src="assets/images/leaf.svg" alt="leaf-img" className={styles.headlineImg} width="100" height="45" />
 						<h2 className={`${font.className}`}>Frequent Questions About CBD</h2>
 					</div>
 					<Accordion>

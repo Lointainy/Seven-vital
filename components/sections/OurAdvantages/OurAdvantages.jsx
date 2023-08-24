@@ -46,7 +46,7 @@ const OurAdvantages = () => {
 			<Container>
 				<div className={styles.contentWrapper}>
 					<div className={styles.headline}>
-						<img src="assets/images/leaf.svg" alt="leaf-img" className={styles.headlineImg} width="100" height="auto" />
+						<img src="assets/images/leaf.svg" alt="leaf-img" className={styles.headlineImg} width="100" height="45" />
 						<h2 className={`${font.className}`}>Why Choose Our CBD Products?</h2>
 						<p className={`${styles.desc} ${styles.headlineDesc}`}>
 							Nam vitae sapien dapibus, condimentum ipsum non, porttitor purus. Cras et diam ac – nunc urna magna, porttitor eu laoreet
@@ -58,7 +58,7 @@ const OurAdvantages = () => {
 							return (
 								<li className={styles.item} key={`${i} ${advantage.title}`}>
 									<i className={styles.itemIcon}>
-										<img src={`assets/icons/advantage-${advantage.imgName}.svg`} alt="" height="40" width="auto" />
+										<img src={`assets/icons/advantage-${advantage.imgName}.svg`} alt="" height="40" width="40" />
 									</i>
 									<h3 className={`${font.className} ${styles.itemTitle}`}>{advantage.title}</h3>
 									<p className={styles.desc}>{advantage.desc}</p>

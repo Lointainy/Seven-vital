@@ -14,7 +14,7 @@ const Footer = () => {
 				<div className={styles.wrapper}>
 					<div className={styles.headline}>
 						<div className={styles.logo}>
-							<img src="assets/logo-white.svg" alt="seven-vital-logo" height="50" width="auto" />
+							<img src="assets/logo-white.svg" alt="seven-vital-logo" height="50" width="220" />
 						</div>
 						<ul className={styles.social}>
 							{socialLinks.map((social, i) => {
@@ -22,7 +22,7 @@ const Footer = () => {
 									<li className={styles.socialItem} key={`${i}${social.name}`}>
 										<Link href={social.link}>
 											<i className={styles.socialItemIcon}>
-												<img src={`assets/icons/${social.name}.svg`} alt={`social-${social.name}`} height="20" width="auto" />
+												<img src={`assets/icons/${social.name}.svg`} alt={`social-${social.name}`} height="20" width="220" />
 											</i>
 										</Link>
 									</li>

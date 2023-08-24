@@ -45,7 +45,7 @@ const Nav = () => {
 				)}
 			</div>
 			<div className={styles.logo}>
-				<img src="/assets/logo.svg" alt="seven-vital-logo" height="50" width="auto" />
+				<img src="/assets/logo.svg" alt="seven-vital-logo" height="50" width="220" />
 			</div>
 			<ul className={styles.buttons}>
 				<li>

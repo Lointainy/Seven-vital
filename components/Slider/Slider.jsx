@@ -86,7 +86,7 @@ const Slider = ({ children, options }) => {
 	return (
 		<div className={styles.slider}>
 			<button className={styles.button} onClick={() => moveSlides(-1)}>
-				<img src="assets/icons/chevron-left.svg" alt="slide-left-icon" height="22" width="auto" />
+				<img src="assets/icons/chevron-left.svg" alt="slide-left-icon" height="22" width="22" />
 			</button>
 			<div className={styles.wrapper} style={sliderHeight}>
 				<div
@@ -104,7 +104,7 @@ const Slider = ({ children, options }) => {
 				</div>
 			</div>
 			<button className={styles.button} onClick={() => moveSlides(1)}>
-				<img src="assets/icons/chevron-right.svg" alt="slide-right-icon" height="22" width="auto" />
+				<img src="assets/icons/chevron-right.svg" alt="slide-right-icon" height="22" width="22" />
 			</button>
 		</div>
 	);

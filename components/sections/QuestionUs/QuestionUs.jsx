@@ -19,7 +19,7 @@ const QuestionUs = () => {
 					<div className={styles.contentWrapper}>
 						<div className={styles.content}>
 							<i>
-								<img src="assets/icons/headphones.svg" alt="headphones-icon" />
+								<img src="assets/icons/headphones.svg" alt="headphones-icon" height="32" width="32" />
 							</i>
 							<p className={styles.desc}>
 								Hotline:

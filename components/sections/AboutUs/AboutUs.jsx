@@ -38,13 +38,13 @@ const AboutUs = () => {
 		>
 			<Container>
 				<div className={`${styles.headline} ${font.className}`}>
-					<img src="assets/images/leaf.svg" alt="leaf-img" className={styles.headlineImg} width="100" height="auto" />
+					<img src="assets/images/leaf.svg" alt="leaf-img" className={styles.headlineImg} width="100" height="45" />
 					<h2>What is Seven Vital CBD?</h2>
 				</div>
 				<div className={styles.contentWrapper}>
 					<div className={styles.imgWrapper}>
-						<img src="assets/images/aboutUs-first.webp" alt="aboutus-first-img" className={styles.imgFirst} />
-						<img src="assets/images/aboutUs-second.webp" alt="aboutus-second-img" className={styles.imgSecond} />
+						<img src="assets/images/aboutUs-first.webp" alt="aboutus-first-img" className={styles.imgFirst} width="400" height="400" />
+						<img src="assets/images/aboutUs-second.webp" alt="aboutus-second-img" className={styles.imgSecond} width="250" height="250" />
 					</div>
 					<div className={styles.content}>
 						<p className={styles.desc}>
@@ -56,7 +56,7 @@ const AboutUs = () => {
 								return (
 									<li className={styles.item} key={`${i} ${service.title}`}>
 										<i className={styles.itemIcon}>
-											<img src="/assets/icons/check.svg" alt="check-icon" />
+											<img src="/assets/icons/check.svg" alt="check-icon" width="22" height="22" />
 										</i>
 										<span className={styles.itemTitle}>{service.title}</span>
 									</li>
