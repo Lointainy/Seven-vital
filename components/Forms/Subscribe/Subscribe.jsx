@@ -13,7 +13,10 @@ const SubscribeForm = () => {
 	return (
 		<form className={styles.form} onSubmit={(e) => handleSubmit(e)}>
 			<h3 className={`${font.alegreya.className} ${styles.headline}`}>Get our newslater</h3>
-			<input type="email" className={styles.input} />
+			<label htmlFor="email" className={styles.inputField}>
+				<span>Email:</span>
+				<input type="email" id="email" name="email" className={styles.input} />
+			</label>
 			<button type="submit" className={`btn-primary ${styles.button}`}>
 				Sign up!
 			</button>
