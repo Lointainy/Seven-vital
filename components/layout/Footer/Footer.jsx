@@ -2,6 +2,7 @@ import SubscribeForm from '@components/Forms/Subscribe/Subscribe';
 import Container from '@components/fields/Container/Container';
 import { font } from '@utils/font';
 import { navLinks, socialLinks } from '@utils/links';
+import Image from 'next/image';
 import Link from 'next/link';
 import styles from './Footer.module.scss';
 
@@ -14,7 +15,7 @@ const Footer = () => {
 				<div className={styles.wrapper}>
 					<div className={styles.headline}>
 						<div className={styles.logo}>
-							<img src="assets/logo-white.svg" alt="seven-vital-logo" height="50" width="220" />
+							<Image src="/assets/logo-white.svg" alt="seven-vital-logo" height={50} width={220} />
 						</div>
 						<ul className={styles.social}>
 							{socialLinks.map((social, i) => {
@@ -22,7 +23,7 @@ const Footer = () => {
 									<li className={styles.socialItem} key={`${i}${social.name}`}>
 										<Link href={social.link} area-label={`view our ${social.name} account`}>
 											<i className={styles.socialItemIcon}>
-												<img src={`assets/icons/${social.name}.svg`} alt={`social-${social.name}`} height="20" width="220" />
+												<Image src={`/assets/icons/${social.name}.svg`} alt={`social-${social.name}`} height={20} width={40} />
 											</i>
 										</Link>
 									</li>
