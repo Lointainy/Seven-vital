@@ -1,9 +1,15 @@
+import Products from '@components/sections/Products/Products';
+
 export const metadata = {
-	title: 'shop'
+	title: 'Shop'
 };
 
 const ShopPage = () => {
-	return <div>ShopPage</div>;
+	return (
+		<main>
+			<Products />
+		</main>
+	);
 };
 
 export default ShopPage;
