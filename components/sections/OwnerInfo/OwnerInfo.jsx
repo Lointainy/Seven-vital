@@ -59,7 +59,7 @@ const OwnerInfo = () => {
 						</ul>
 					</div>
 					<div className={styles.imgWrapper}>
-						<img src="" alt="owner Salma Seven" />
+						<img src="assets/images/owner.webp" alt="owner Salma Seven" />
 					</div>
 				</div>
 			</Container>

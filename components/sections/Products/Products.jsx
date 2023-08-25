@@ -11,7 +11,7 @@ const font = Alegreya({
 const Products = () => {
 	const products = [
 		{
-			imgPath: '',
+			imgPath: 'assets/images/products/CBD-PFS.webp',
 			title: 'CBD Products Full Set',
 			slug: 'CBD-pfs',
 			sale: false,
@@ -21,7 +21,7 @@ const Products = () => {
 			}
 		},
 		{
-			imgPath: '',
+			imgPath: 'assets/images/products/CBD-PSS.webp',
 			title: 'CBD Products Starter Set',
 			slug: 'CBD-pss',
 			sale: true,
@@ -31,7 +31,7 @@ const Products = () => {
 			}
 		},
 		{
-			imgPath: '',
+			imgPath: 'assets/images/products/CBD-PRS.webp',
 			title: 'CBD Pain Relief Set',
 			slug: 'CBD-prs',
 			sale: true,
@@ -41,7 +41,7 @@ const Products = () => {
 			}
 		},
 		{
-			imgPath: '',
+			imgPath: 'assets/images/products/CBD-ATC.webp',
 			title: 'CBD Acne Treatment Cream',
 			slug: 'CBD-atc',
 			sale: false,
@@ -68,7 +68,7 @@ const Products = () => {
 							return (
 								<li className={styles.card} key={`${i}${product.title}`}>
 									<div className={styles.imgWrapper}>
-										<img src={product.img} alt={product.title} className={styles.img} width="280" height="380" />
+										<img src={product.imgPath} alt={product.title} className={styles.img} width="280" height="380" />
 										{product.sale && <span>sale</span>}
 									</div>
 									<div className={styles.cardTitle}>{product.title}</div>

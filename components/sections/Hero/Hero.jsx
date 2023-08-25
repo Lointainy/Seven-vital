@@ -13,7 +13,7 @@ const Hero = () => {
 		<section
 			className={styles.section}
 			style={{
-				backgroundImage: `url('')`
+				backgroundImage: `url('assets/images/hero-background.webp')`
 			}}
 		>
 			<Container>

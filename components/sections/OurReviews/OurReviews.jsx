@@ -13,17 +13,17 @@ const font = Alegreya({
 const OurReviews = () => {
 	const reviews = [
 		{
-			imgPath: '',
+			imgPath: 'assets/images/review-1.webp',
 			name: 'Alexa Blackwod',
 			desc: 'I am impressed! Cras at ornare ex, quis fringilla tortor quam et tortor euismod, vel maximus metus tristique. Highly recommend!'
 		},
 		{
-			imgPath: '',
+			imgPath: 'assets/images/review-2.webp',
 			name: 'Miriam J. Anderson',
 			desc: 'Pellentesque condimentum velit tortor. Cras at ornare ex, quis fringilla tortor. Ut tempus metus dui, non tristique turpis euismod sed. Nunc fermentum quam et tortor euismod, vel maximus metus tristique.'
 		},
 		{
-			imgPath: '',
+			imgPath: 'assets/images/review-3.webp',
 			name: 'Boris Brown',
 			desc: 'Super fun quam et tortor euismod, vel ligula, sit amet lacinia justo cursus ac. Nulla sed elit faucibus, auctor mauris ac, fermentum velit. Quisque eget odio felis. Thanx!'
 		}
