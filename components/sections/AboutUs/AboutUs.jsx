@@ -2,6 +2,7 @@ import Container from '@components/fields/Container/Container';
 import styles from './AboutUs.module.scss';
 
 import { Alegreya } from 'next/font/google';
+import Image from 'next/image';
 
 const font = Alegreya({
 	subsets: ['latin']
@@ -38,26 +39,28 @@ const AboutUs = () => {
 		>
 			<Container>
 				<div className={`${styles.headline} ${font.className}`}>
-					<img src="assets/images/leaf.svg" alt="leaf-img" className={styles.headlineImg} width="100" height="45" />
+					<Image src="/assets/images/leaf.svg" alt="leaf-img" className={styles.headlineImg} width={100} height={45} priority={false} />
 					<h2>What is Seven Vital CBD?</h2>
 				</div>
 				<div className={styles.contentWrapper}>
 					<div className={styles.imgWrapper}>
-						<img
-							src="assets/images/aboutUs-first.webp"
+						<Image
+							src="/assets/images/aboutUs-first.webp"
 							alt="aboutus-first-img"
 							className={styles.imgFirst}
-							width="400"
-							height="400"
+							width={400}
+							height={400}
 							aspect-ratio="1 / 1"
+							priority={false}
 						/>
-						<img
-							src="assets/images/aboutUs-second.webp"
+						<Image
+							src="/assets/images/aboutUs-second.webp"
 							alt="aboutus-second-img"
 							className={styles.imgSecond}
-							width="250"
-							height="250"
+							width={250}
+							height={250}
 							aspect-ratio="1 / 1"
+							priority={false}
 						/>
 					</div>
 					<div className={styles.content}>
@@ -70,7 +73,7 @@ const AboutUs = () => {
 								return (
 									<li className={styles.item} key={`${i} ${service.title}`}>
 										<i className={styles.itemIcon}>
-											<img src="/assets/icons/check.svg" alt="check-icon" width="22" height="22" />
+											<Image src="/assets/icons/check.svg" alt="check-icon" width={22} height={22} priority={false} />
 										</i>
 										<span className={styles.itemTitle}>{service.title}</span>
 									</li>
